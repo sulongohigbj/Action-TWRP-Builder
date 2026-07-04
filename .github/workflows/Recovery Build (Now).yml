@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/sulongohigbj/custom_recovery_tree_xiaomi_xun'
+        default: 'https://github.com/sulongohigbj/android_device_xiaomi_xun'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -36,11 +36,11 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_xun'
+        default: 'omni_xun'
       TARGET_RELEASE:
         description: 'TARGET_RELEASE'
         required: true
-        default: 'ap3a'
+        default: '14'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
